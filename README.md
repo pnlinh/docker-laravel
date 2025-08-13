@@ -198,7 +198,6 @@ trivy image pnlinh/laravel:php7.2
 pnlinh/laravel:php7.2 (alpine 3.8.5)
 
 Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
-
 ```
 
 ### Add Xdebug
@@ -208,12 +207,6 @@ Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
 ### Add SSL in local
 
 - See [docs/enable-https.md](docs/enable-https.md)
-
-### Useful images
-
-- Magento: https://github.com/pnlinh/docker-php/tree/feature/magento
-- Symfony: https://github.com/pnlinh/docker-php/tree/feature/symfony
-- CodeIgniter: https://github.com/pnlinh/docker-php/tree/feature/codeigniter
 
 ### References
 
