@@ -39,11 +39,6 @@ VERSION=8.4 make build # Build image with php 8.4
 
 ```shell
 VERSION=7.2 IMAGE=archielite/laravel:php make build # Build image with php 7.2
-VERSION=7.4 IMAGE=archielite/laravel:php make build # Build image with php 7.4
-VERSION=8.0 IMAGE=archielite/laravel:php make build # Build image with php 8.0
-VERSION=8.1 IMAGE=archielite/laravel:php make build # Build image with php 8.1
-VERSION=8.2 IMAGE=archielite/laravel:php make build # Build image with php 8.2
-VERSION=8.3 IMAGE=archielite/laravel:php make build # Build image with php 8.3
 ```
 
 - Test image by PHP version
