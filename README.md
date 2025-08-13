@@ -1,6 +1,6 @@
 # Docker PHP-FPM & Nginx base on Alpine Linux
 
-Simple docker image for Laravel development
+Lightweight docker image for Laravel development
 
 ### Why should use this image
 
@@ -210,6 +210,6 @@ Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
 
 ### References
 
-- https://github.com/TrafeX/docker-php-nginx
-- https://bolshov.online/docker/2020/11/18/runit-vs-supervisor
-- https://stackoverflow.com/questions/67231714/how-to-add-trusted-root-ca-to-docker-alpine/67232164#67232164
+- [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx)
+- [Runit vs Supervisor](https://bolshov.online/docker/2020/11/18/runit-vs-supervisor)
+- [Add trusted root CA to Alpine](https://stackoverflow.com/questions/67231714/how-to-add-trusted-root-ca-to-docker-alpine/67232164#67232164)
