@@ -205,6 +205,7 @@ Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)
 
 ### References
 
+- [pnlinh/docker-compose-template](https://github.com/pnlinh/docker-compose-template)
 - [TrafeX/docker-php-nginx](https://github.com/TrafeX/docker-php-nginx)
 - [Runit vs Supervisor](https://bolshov.online/docker/2020/11/18/runit-vs-supervisor)
 - [Add trusted root CA to Alpine](https://stackoverflow.com/questions/67231714/how-to-add-trusted-root-ca-to-docker-alpine/67232164#67232164)
