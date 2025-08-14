@@ -11,7 +11,7 @@ Lightweight docker image for Laravel development
   of [supervisor](http://supervisord.org/)
 - Tiny Docker image size
 
-### PHP version support
+### PHP versions supported
 
 - [x] PHP 7.2
 - [x] PHP 7.4
