@@ -33,7 +33,6 @@ release-all-to-ghcr: ### Build all PHP version and push image to GitHub Containe
 	VERSION=7.2 IMAGE=ghcr.io/pnlinh/laravel:php make release
 
 test: ### Test image
-	$(DOCKER_RUN) php -v
 	$(DOCKER_RUN) sh -c "php -v | grep ${VERSION}"
 	$(DOCKER_RUN) sh -c "php -v | grep OPcache"
 	$(DOCKER_RUN) sh -c "nginx -t"
