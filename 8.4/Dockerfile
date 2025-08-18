@@ -72,5 +72,5 @@ EXPOSE 80
 # Let boot start nginx & php-fpm
 CMD ["sh", "/sbin/boot.sh"]
 
-# Configure a healthcheck to validate that everything is up & running.
+# Configure a healthcheck to validate that everything is up & running
 HEALTHCHECK --timeout=10s CMD curl --silent --fail http://127.0.0.1:80/fpm-ping || exit 1
