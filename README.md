@@ -16,10 +16,10 @@ Lightweight docker image for Laravel development
 - [x] PHP 7.2
 - [x] PHP 7.4
 - [x] PHP 8.0
-- [x] PHP 8.1 (recommend usage)
+- [x] PHP 8.1
 - [x] PHP 8.2 (recommend usage)
-- [x] PHP 8.3
-- [x] PHP 8.4
+- [x] PHP 8.3 (recommend usage)
+- [x] PHP 8.4 (recommend usage)
 
 ### How to use
 
@@ -70,7 +70,7 @@ docker run --name=app -v /path/to/project:/var/www/html -p 80:80 pnlinh/laravel:
 ```yaml
 services:
   app:
-    image: pnlinh/laravel:php8.1
+    image: pnlinh/laravel:php8.4
     hostname: laravel-app
     container_name: laravel-app
     ports:
